@@ -1,4 +1,5 @@
 import { HiOutlineArrowPath, HiOutlineMapPin } from 'react-icons/hi2'
+import VibeFeed from '../components/vibes/VibeFeed'
 
 export default function Home() {
   return (
@@ -20,7 +21,7 @@ export default function Home() {
         </button>
       </header>
 
-      {/* <VibeFeed /> */}
+      <VibeFeed />
     </div>
   )
 }
