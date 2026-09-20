@@ -5,6 +5,9 @@
 @import 'tailwindcss/utilities.css' layer(utilities);
 
 @theme {
+  --color-vibe-petrol: #174e5b;
+  --color-vibe-petrol-light: #286b78;
+
   --color-vibe-violet: #7c3aed;
   --color-vibe-violet-dark: #2e1065;
 

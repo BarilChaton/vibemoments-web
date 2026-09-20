@@ -1,11 +1,11 @@
-import { HiHome, HiOutlineChatBubbleLeftRight, HiOutlineUserGroup, HiOutlineUser } from 'react-icons/hi2'
+import { FiHome, FiMessageCircle, FiUser, FiUsers } from 'react-icons/fi'
 
 export default function Sidebar({ page, setPage }) {
   const items = [
-    { id: 'home', label: 'Vibes', icon: HiHome },
-    { id: 'friends', label: 'Friends', icon: HiOutlineUserGroup },
-    { id: 'inbox', label: 'Inbox', icon: HiOutlineChatBubbleLeftRight },
-    { id: 'profile', label: 'Profile', icon: HiOutlineUser }
+    { id: 'home', label: 'Vibes', icon: FiHome },
+    { id: 'friends', label: 'Friends', icon: FiUsers },
+    { id: 'inbox', label: 'Inbox', icon: FiMessageCircle },
+    { id: 'profile', label: 'Profile', icon: FiUser }
   ]
 
   return (
