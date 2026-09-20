@@ -40,11 +40,3 @@ export const signOut = async () => {
 
   if (error) throw error
 }
-
-export const getProfile = async (userId) => {
-  const { data, error } = await supabase.from('profiles').select('*').eq('id', userId).single()
-
-  if (error) throw error
-
-  return data
-}
