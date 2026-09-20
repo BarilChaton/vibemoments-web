@@ -1,5 +1,5 @@
 import Sidebar from './Sidebar'
-import RightSidebar from './rightSidebar'
+import RightSidebar from './RightSidebar'
 
 export default function AppShell({ page, setPage, children }) {
   return (

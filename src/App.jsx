@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import AppShell from './components/layout/AppShell'
-import Home from './pages/home'
-import Inbox from './pages/inbox'
-import Friends from './pages/friends'
-import Profile from './pages/profile'
+import Home from './pages/Home'
+import Inbox from './pages/Inbox'
+import Friends from './pages/Friends'
+import Profile from './pages/Profile'
 
 export default function App() {
   const [page, setPage] = useState('home')
