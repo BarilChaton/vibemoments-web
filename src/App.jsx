@@ -1,11 +1,29 @@
-function App() {
+import { useState } from 'react'
+import AppShell from './components/layout/AppShell'
+import Home from './pages/home'
+import Inbox from './pages/inbox'
+import Friends from './pages/friends'
+import Profile from './pages/profile'
+
+export default function App() {
+  const [page, setPage] = useState('home')
+
+  const renderPage = () => {
+    switch (page) {
+      case 'inbox':
+        return <Inbox />
+      case 'friends':
+        return <Friends />
+      case 'profile':
+        return <Profile />
+      default:
+        return <Home />
+    }
+  }
+
   return (
-    <main>
-      <div className="w-screen h-screen flex justify-center items-center">
-        <h1 className="font-black text-9xl">HELLO WORLD!</h1>
-      </div>
-    </main>
+    <AppShell page={page} setPage={setPage}>
+      {renderPage()}
+    </AppShell>
   )
 }
-
-export default App

@@ -7,19 +7,26 @@
 @source "../node_modules/@barilchaton/vibemoments-camera/dist";
 
 @theme {
-  --color-vibe-petrol: #174e5b;
-  --color-vibe-petrol-light: #286b78;
+  --color-vibe-violet: #7c3aed;
+  --color-vibe-violet-dark: #2e1065;
 
-  --color-vibe-apricot: #f29a6e;
-  --color-vibe-apricot-dark: #d97951;
+  --color-vibe-yellow: #facc15;
+  --color-vibe-ocean: #14b8a6;
 
-  --color-vibe-lime: #c6d94c;
+  --color-vibe-bg: #120d1c;
+  --color-vibe-surface: #1c1528;
 
-  --color-vibe-bg: #eee9df;
-  --color-vibe-surface: #f9f7f2;
+  --color-vibe-text: #f8f7fa;
+  --color-vibe-muted: #a9a3b3;
 
-  --color-vibe-text: #18282c;
-  --color-vibe-muted: #69777a;
+  /* App light theme */
+  --color-vibe-light-bg: #eee9df;
+  --color-vibe-light-surface: #f7f4ed;
+  --color-vibe-light-text: #073f50;
+  --color-vibe-light-muted: #60777c;
+
+  --color-vibe-coral: #ff9366;
+  --color-vibe-lime: #bed934;
 }
 
 :root {

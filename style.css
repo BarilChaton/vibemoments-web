@@ -5,7 +5,6 @@
   --color-vibe-violet-dark: #2e1065;
 
   --color-vibe-yellow: #facc15;
-
   --color-vibe-ocean: #14b8a6;
 
   --color-vibe-bg: #120d1c;
@@ -13,6 +12,15 @@
 
   --color-vibe-text: #f8f7fa;
   --color-vibe-muted: #a9a3b3;
+
+  /* App light theme */
+  --color-vibe-light-bg: #eee9df;
+  --color-vibe-light-surface: #f7f4ed;
+  --color-vibe-light-text: #073f50;
+  --color-vibe-light-muted: #60777c;
+
+  --color-vibe-coral: #ff9366;
+  --color-vibe-lime: #bed934;
 }
 
 :root {
